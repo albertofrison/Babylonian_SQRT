@@ -27,7 +27,7 @@
 ################################################################################
 
 
-babylonian_sqrt <- function(S, tolerance = 1e-10, max_iterations = 100) {
+babylonian_sqrt <- function(S, tolerance = 1e-10, max_iterations = 1000) {
   
   # --- 1. Input Validation ---
   if (S < 0) {
